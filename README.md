@@ -18,7 +18,7 @@ In this exercise, I have undertaken a data modeling project for Global Super Sto
 The primary goal of the Order Management System (OMS) data modeling is to establish a well-structured, efficient, and scalable way to track, manage, and analyze all processes related to customer orders, from initial placement to final delivery. This model ensures accurate record-keeping, streamlined operations, and valuable insights into the order management process, ultimately leading to better business decisions and enhanced customer satisfaction.
 
 ## Database
-* The data modeling is implemented using Oracle Database. 
+* The Order Management System (OMS) data modeling is implemented using Oracle Database. 
 * Oracle Database ensures that the OMS can handle large volumes of data efficiently and securely.
 
 ## UK Customers Data Preparation and Processing 
