@@ -12,7 +12,7 @@
 * [Conclusion](#Conclusion)
   
 ## Introduction
-* In this exercise, I have undertaken a data modeling project for Global Super Store.
+In this exercise, I have undertaken a data modeling project for Global Super Store.
 
 ## Dataset
 The dataset comprises attributes information such as Region, Gender, Customers id and Name Classification, Age Distribution, Distribution by Balance, Job Classification etc. Various analyses like the Region-wise classification, Gender-wise classification, Customer Id and Name classification, Age classification, Distribution by Balance and many other analysis are performed on the dataset.
