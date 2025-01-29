@@ -12,5 +12,4 @@
 * [Conclusion](#Conclusion)
   
 ## Introduction
-* This project aims to develop a Power BI Dashboard to provide insights into UK Bank Customers which providesa concise overview of key metrics and insights relevant to customers' banking activities, offering a simplified interface for easy navigation and quick access to important information.
-* The Power BI dashboard for analyzing UK Bank Customers data can be accessed through the following link: [UK Bank Customers Dashboard](https://github.com/RadhikaDeshpande1010/Power-BI-UK-Bank-Customers-Dashboard/blob/main/SRC/UK%20Bank%20Customer%20Report.pbix)
+In this exercise, I have undertaken a data modeling project for Order Management System.
