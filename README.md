@@ -4,8 +4,8 @@
 
 ## Table of Contents
 * [Introduction](#Introduction)
-* [Dataset](#Dataset)
-* [Data Analysis](#Data-Analysis)
+* [Purpose](#Purpose)
+* [Database](#Database)
 * [Data Preparation and Processing](#UK-Customers-Data-Preparation-and-Processing)
 * [DAX Formulas Used in Measures](#DAX-Formulas-Used-in-Measures)
 * [Dashboard](#Dashboard)
@@ -14,11 +14,11 @@
 ## Introduction
 In this exercise, I have undertaken a data modeling project for Global Super Store.
 
-## Dataset
-The dataset comprises attributes information such as Region, Gender, Customers id and Name Classification, Age Distribution, Distribution by Balance, Job Classification etc. Various analyses like the Region-wise classification, Gender-wise classification, Customer Id and Name classification, Age classification, Distribution by Balance and many other analysis are performed on the dataset.
-The data for this UK Bank Customer Dashboard is sourced from Kaggle, a renowned platform for hosting datasets.
+## Purpose
+The primary goal of the Order Management System (OMS) data modeling is to establish a well-structured, efficient, and scalable way to track, manage, and analyze all processes related to customer orders, from initial placement to final delivery. This model ensures accurate record-keeping, streamlined operations, and valuable insights into the order management process, ultimately leading to better business decisions and enhanced customer satisfaction.
 
-## Data Analysis
+## Database
+The data modeling is implemented using Oracle Database. Oracle Database ensures that the OMS can handle large volumes of data efficiently and securely.
 
 ## UK Customers Data Preparation and Processing 
 * Load the Raw Data.
