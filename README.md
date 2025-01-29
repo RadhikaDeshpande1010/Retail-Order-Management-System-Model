@@ -6,7 +6,7 @@
 * [Introduction](#Introduction)
 * [Dataset](#Dataset)
 * [Data Analysis](#Data-Analysis)
-* [Data Preparation and Processing](#Q2-Employee-Attendance-Data-Preparation-and-Processing)
+* [Data Preparation and Processing](#UK-Customers-Data-Preparation-and-Processing)
 * [DAX Formulas Used in Measures](#DAX-Formulas-Used-in-Measures)
 * [Dashboard](#Dashboard)
 * [Conclusion](#Conclusion)
