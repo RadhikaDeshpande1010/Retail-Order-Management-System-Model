@@ -12,4 +12,5 @@
 * [Conclusion](#Conclusion)
   
 ## Introduction
-In this exercise, I have undertaken a data modeling project for Order Management System.
+* In this exercise, I have undertaken a data modeling project for Global Super Store.
+
