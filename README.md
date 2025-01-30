@@ -27,17 +27,26 @@ In this project, I have used Erwin Data Modeler to design both the ER diagram fo
 ## Instructions 
 Building a thorough data model for a Retail Order Management System (ROMS) entails multiple critical steps, such as formulating an Entity-Relationship (ER) diagram and designing a Dimensional Model. Let's delve into the process in detail.
 
-### Step 1: Requirements Gathering
-* Understand the business processes and requirements.
-* Identify the key entities and relationships.
-* Define the scope and boundaries of the system.
+#### Step 1: Requirements Gathering
 
-### Step 2: Create ER Diagram
+1. Understand the business processes and requirements.
+2. Identify the key entities and relationships.
+3. Define the scope and boundaries of the system.
 
-* Your first task is to design an ER diagram for the Order Management System based on the dataset. Here, I am referring to the W3Schools Retail Order Management Schema as the data source.
-* Use a data modeling tool to visually represent the relationships between entities.
-* Ensure that your database schema adheres to the three normal forms (3NF) to eliminate redundancy and maintain data integrity.
-* The following ER diagram illustrates an adequate relational schema for Retail Order Management Schema :
+#### Step 2: Create ER Diagram
+
+In this step, you will use Erwin Data Modeler to design an Entity-Relationship (ER) diagram for the Retail Order Management System (ROMS). Your goal is to represent the relationships between the key entities in the system, such as Customers, Orders, Products, Suppliers, and Shippers.
+
+1. **Design the ER diagram**:  
+   Using Erwin Data Modeler, visually represent how these entities interact, ensuring a clear and organized structure for the database.
+
+2. **Normalize the database**:  
+   Ensure that the schema adheres to the three normal forms (3NF). This step is crucial to eliminate data redundancy, enforce data integrity, and optimize the overall database structure.
+
+3. **Visualize relationships**:  
+   Map out the relationships between entities, such as customers placing orders, orders containing products, and products supplied by suppliers, ensuring that all relationships are clearly depicted.
+
+The final ER diagram will provide a comprehensive and well-organized relational schema for the Retail Order Management System, ensuring it is scalable, maintainable, and efficient for processing and analyzing order data.
 
 ![ER Diagram for Retail Order Management System](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_ERDataModel.png)
 
