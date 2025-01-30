@@ -23,7 +23,7 @@ The Retail Order Management System (ROMS) data modeling is implemented using Ora
 ## Instructions 
 Building a thorough data model for a Retail Order Management System (ROMS) entails multiple critical steps, such as formulating an Entity-Relationship (ER) diagram and designing a Dimensional Model. Let's delve into the process in detail.
 
-<h4> ## Step 1: Create ER Diagram </h4>
+## Step 1: Create ER Diagram
 
 **1. Total Customers:** This DAX expression counts the total number of customers in the dataset.
 * ```
