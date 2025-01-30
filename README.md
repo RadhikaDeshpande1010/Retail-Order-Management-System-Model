@@ -29,7 +29,7 @@ In this project, I have used Erwin Data Modeler to design both the ER diagram fo
 ## Instructions 
 Building a thorough data model for a Retail Order Management System (ROMS) entails multiple critical steps, such as formulating an Entity-Relationship (ER) diagram and designing a Dimensional Model. Let's delve into the process in detail.
 
-#### Step 1: Requirements Gathering
+### Step 1: Requirements Gathering
 
 Before starting the data modeling process, gather all business requirements related to the Retail Order Management System. Identify the key entities, relationships, and processes. Examples of business questions:
 
@@ -37,7 +37,7 @@ Before starting the data modeling process, gather all business requirements rela
 2. What is the relationship between products, orders, and shipments?
 3. How are products categorized and tracked?
 
-#### Step 2: Create ER Diagram
+### Step 2: Create ER Diagram
 
 In this step, you will use Erwin Data Modeler to design an Entity-Relationship (ER) diagram for the Retail Order Management System (ROMS). Your goal is to represent the relationships between the key entities in the system, such as Customers, Orders, Products, Suppliers, and Shippers.
 
@@ -54,13 +54,13 @@ The final ER diagram will provide a comprehensive and well-organized relational 
 
 ![ER Diagram for Retail Order Management System](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_ERDataModel.png)
 
-#### Step 3: Implement the Data Model
+### Step 3: Implement the Data Model
 
-1. Use Erwin Data Modeler’s forward engineering feature to implement the Retail Order Management System (ROMS) data model inside the MySQL server.
-2. You need to select the Database tab, then choose the forward engineer option in Erwin Data Modeler to implement the ROMS data model into the MySQL server as demonstrated below. This will generate the necessary SQL scripts to create tables, relationships, and constraints based on the defined data model.
+1. Use Erwin Data Modeler’s forward engineering feature to implement the Retail Order Management System (ROMS) data model inside the Database Oracle 10g/11g.
+2. You need to select the Database tab, then choose the forward engineer option in Erwin Data Modeler to implement the ROMS data model into the Database Oracle 10g/11g server as demonstrated below. This will generate the necessary SQL scripts to create tables, relationships, and constraints based on the defined data model.
+3. The SQL script generated for Retail Order Management System can be accessed through the following link: [Retail Order Management System DDL Scripts](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/RetailOrderManagenment_SourceTablesDDLScript_V1.0.ddl)
 
-
-#### Step 4: Create Star Schema (Dimensional Model)
+### Step 4: Create Star Schema (Dimensional Model)
 
 In this step, you will create a Star Schema for the Retail Order Management System (ROMS). The goal is to design a dimensional model that supports efficient data analysis, particularly for tracking sales performance, inventory, and customer behavior.
 
@@ -85,6 +85,4 @@ The final Star Schema will provide a robust, scalable, and efficient foundation 
 ![Dimensional Data Model](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_DimensionalDataModel.png)
 
 ## Conclusion
-* The majority of customers fall within the 30-55 age range, with a fairly even split between genders. The highest concentration of customers is in the England and Scotland regions.
-* A significant proportion of customers maintain a moderate balances. This understanding enables the bank to personalize services and financial products according to customers' financial profiles.
-* The distribution of customers by the month they joined the bank describes the notable trends. Understanding customer acquisition patterns over time facilitates strategic planning for marketing campaigns and customer retention initiatives.
+In this project, we have successfully designed and implemented the Entity-Relationship (ER) Diagram and Dimensional Model (Star Schema) for the Retail Order Management System (ROMS). These models form the backbone of a well-organized and efficient database architecture, ensuring data integrity and optimized performance for reporting and analysis.
