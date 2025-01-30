@@ -56,8 +56,8 @@ The final ER diagram will provide a comprehensive and well-organized relational 
 
 ### Step 3: Implement the Data Model
 
-1. Use Erwin Data Modeler’s forward engineering feature to implement the Retail Order Management System (ROMS) data model inside the Oracle Database.
-2. You need to select the Database tab, then choose the forward engineer option in Erwin Data Modeler to implement the ROMS data model into the Oracle Database server as demonstrated below. This will generate the necessary SQL scripts to create tables, relationships, and constraints based on the defined data model.
+1. Use Erwin Data Modeler’s forward engineering feature to implement the Retail Order Management System (ROMS) data model inside the Database Oracle 21C.
+2. You need to select the Database tab, then choose the forward engineer option in Erwin Data Modeler to implement the ROMS data model into the Database Oracle 21C server as demonstrated below. This will generate the necessary SQL scripts to create tables, relationships, and constraints based on the defined data model.
 3. The SQL script generated for Retail Order Management System can be accessed through the following link: [Retail Order Management System DDL Scripts](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/RetailOrderManagenment_SourceTablesDDLScript_V1.0.ddl)
 
 ### Step 4: Create Star Schema (Dimensional Model)
