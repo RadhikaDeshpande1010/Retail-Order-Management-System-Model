@@ -8,7 +8,8 @@
 * [Database](#Database)
 * [Tools](#Tools)
 * [Instructions](#Instructions)
-* [Step 1: Create ER Diagram](#step-1-create-er-diagram)
+* [Step 1: Requirements Gathering](#step-1-requirements-gathering)
+* [Step 2: Create ER Diagram](#step-2-create-er-diagram)
 * [Conclusion](#Conclusion)
   
 ## Introduction
@@ -20,13 +21,18 @@ The primary goal of the Retail Order Management System (ROMS) data modeling is t
 ## Database
 The Retail Order Management System (ROMS) data modeling is implemented using Oracle Database. Oracle Database ensures that the ROMS can handle large volumes of data efficiently and securely.
 
-## Tools
-You can use a data modeling tool like Erwin, Lucidchart, or Draw.io to visually represent the relationships between entities in both the ER diagram and dimensional model. In this project, we are using Erwin Data Modeler to design both the ER diagram for the relational schema and the dimensional model for optimized data warehousing and analytics.
+## Data Modeling Tool
+In this project, I have used Erwin Data Modeler to design both the ER diagram for the relational schema and the dimensional model for optimized data warehousing and analytics.
 
 ## Instructions 
 Building a thorough data model for a Retail Order Management System (ROMS) entails multiple critical steps, such as formulating an Entity-Relationship (ER) diagram and designing a Dimensional Model. Let's delve into the process in detail.
 
-### Step 1: Create ER Diagram
+### Step 1: Requirements Gathering
+* Understand the business processes and requirements.
+* Identify the key entities and relationships.
+* Define the scope and boundaries of the system.
+
+### Step 2: Create ER Diagram
 
 * Your first task is to design an ER diagram for the Order Management System based on the dataset. Here, I am referring to the W3Schools Retail Order Management Schema as the data source.
 * Use a data modeling tool to visually represent the relationships between entities.
