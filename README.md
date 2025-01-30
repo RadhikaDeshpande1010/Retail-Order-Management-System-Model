@@ -6,6 +6,7 @@
 * [Introduction](#Introduction)
 * [Purpose](#Purpose)
 * [Database](#Database)
+* [Tools](#Tools)
 * [Instructions](#Instructions)
 * [Conclusion](#Conclusion)
   
@@ -18,15 +19,19 @@ The primary goal of the Retail Order Management System (ROMS) data modeling is t
 ## Database
 The Retail Order Management System (ROMS) data modeling is implemented using Oracle Database. Oracle Database ensures that the ROMS can handle large volumes of data efficiently and securely.
 
+## Tools
+You can use a data modeling tool like Erwin, Lucidchart, or Draw.io to visually represent the relationships between entities in both the ER diagram and dimensional model. In this project, we are using Erwin Data Modeler to design both the ER diagram for the relational schema and the dimensional model for optimized data warehousing and analytics.
+
 ## Instructions 
 Building a thorough data model for a Retail Order Management System (ROMS) entails multiple critical steps, such as formulating an Entity-Relationship (ER) diagram and designing a Dimensional Model. Let's delve into the process in detail.
 
 ## Step 1: Create ER Diagram
+* Your first task is to design an ER diagram for the Order Management System based on the dataset. Here, I am referring to the W3Schools Retail Order Management Schema as the data source.
+* Use a data modeling tool to visually represent the relationships between entities.
+* Ensure that your database schema adheres to the three normal forms (3NF) to eliminate redundancy and maintain data integrity.
+* The following ER diagram illustrates an adequate relational schema for Retail Order Management Schema :
 
-**1. Total Customers:** This DAX expression counts the total number of customers in the dataset.
-* ```
-  Total Customers = COUNT('UK Bank Customers Template'[Customer ID])
-  ```
+
   
 **2. Male Count and Female:** This DAX expression calculate the count of male and female customers respectively based on your dataset.
 * ```
