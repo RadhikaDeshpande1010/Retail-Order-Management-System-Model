@@ -15,8 +15,6 @@
 * [Conclusion](#Conclusion)
   
 ## Introduction
-
-## :blue_heart: **Introduction** :rocket:
 In this exercise, I have undertaken a data modeling project for Retail Order Management System (ROMS).
 
 ## Purpose
