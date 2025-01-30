@@ -10,6 +10,8 @@
 * [Instructions](#Instructions)
 * [Step 1: Requirements Gathering](#step-1-requirements-gathering)
 * [Step 2: Create ER Diagram](#step-2-create-er-diagram)
+* [Step 3: Implement the Data Model](#step-3-implement-the-data-model)
+* [Step 4: Create Star Schema (Dimensional Model)](#step-4-create-star-schema-dimensional-model)
 * [Conclusion](#Conclusion)
   
 ## Introduction
@@ -52,30 +54,35 @@ The final ER diagram will provide a comprehensive and well-organized relational 
 
 ![ER Diagram for Retail Order Management System](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_ERDataModel.png)
 
-  
-**2. Male Count and Female:** This DAX expression calculate the count of male and female customers respectively based on your dataset.
-* ```
-  Male Count = COUNTROWS(FILTER('UK Bank Customers Template','UK Bank Customers Template'[Gender] = "Male"))
-  Female Count = COUNTROWS(FILTER('UK Bank Customers Template','UK Bank Customers Template'[Gender] = "Female"))
-  ```
+#### Step 3: Implement the Data Model
 
-**3. Region:** This DAX expression gives a distinct count of the regions in the dataset.
-* ```
-  Region = DISTINCTCOUNT('UK Bank Customers Template'[Region])
-  ```
+1. Use Erwin Data Modeler’s forward engineering feature to implement the Retail Order Management System (ROMS) data model inside the MySQL server.
+2. You need to select the Database tab, then choose the forward engineer option in Erwin Data Modeler to implement the ROMS data model into the MySQL server as demonstrated below. This will generate the necessary SQL scripts to create tables, relationships, and constraints based on the defined data model.
 
-**4. Average Balance Per Customers:** This DAX expression provides average balance per customer..
-* ```
-  Average Balance Per Customers = DIVIDE(
-  SUM('UK Bank Customers Template'[Balance]),
-  COUNT('UK Bank Customers Template'[Customer ID]))
-  ```
 
-## Dashboard
+#### Step 4: Create Star Schema (Dimensional Model)
 
-<img width="1800" alt="UK Bank Customer Image1" src="https://github.com/RadhikaDeshpande1010/Power-BI-UK-Bank-Customers-Dashboard/blob/main/SRC/UK%20Bank%20Customer%20Dashboard%201.png">
+In this step, you will create a Star Schema for the Retail Order Management System (ROMS). The goal is to design a dimensional model that supports efficient data analysis, particularly for tracking sales performance, inventory, and customer behavior.
 
-<img width="1800" alt="UK Bank Customer Image2" src="https://github.com/RadhikaDeshpande1010/Power-BI-UK-Bank-Customers-Dashboard/blob/main/SRC/UK%20Bank%20Customer%20Dashboard%202.png">
+1. Design the Star Schema:
+Using **Erwin Data Modeler**, design the Star Schema by defining the Fact and Dimension tables.
+
+- The **Fact table** should store transactional data, such as Order Amount, Quantity, and Sales.
+- The **Dimension tables** should capture descriptive attributes like Customer, Product, Location, and Time. These dimensions will be linked to the Fact table via foreign keys.
+
+2. Conformed Date Dimension:
+- Design a **conformed Date dimension** that can be shared across different fact tables and projects. The Date dimension provides consistent time-related attributes such as Year, Quarter, Month, and Day, ensuring uniformity in time-based reporting.
+- The advantage of a conformed Date dimension is that it can be reused across multiple subject areas or projects, allowing for consistent and synchronized time-based reporting, regardless of the specific dataset or business domain. For example, the same Date dimension can be used in other projects such as **Inventory Management** or **Marketing Campaign Analysis**, enhancing data consistency across various business processes.
+
+3. Ensure Data Integrity and Optimization:
+Make sure the Star Schema is designed to minimize redundancy in the Fact table while ensuring optimal query performance. The Fact table should be **denormalized** to allow for faster aggregations, while the Dimension tables hold descriptive data that will support detailed analysis.
+
+4. Optimize for Querying and Reporting:
+The Star Schema should be easy to navigate for ad-hoc queries and should support fast aggregations. By using a conformed Date dimension and organizing your Fact and Dimension tables in this way, you will enable effective and efficient analysis of sales, customer, and product data across the Retail Order Management System.
+
+The final Star Schema will provide a robust, scalable, and efficient foundation for business intelligence and reporting, helping stakeholders gain insights into key metrics such as sales performance, inventory levels, and customer behavior. Additionally, the conformed Date dimension can be leveraged in other subject areas or projects, ensuring consistency and efficiency across the enterprise.
+
+![Dimensional Data Model](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_DimensionalDataModel.png)
 
 ## Conclusion
 * The majority of customers fall within the 30-55 age range, with a fairly even split between genders. The highest concentration of customers is in the England and Scotland regions.
