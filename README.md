@@ -29,9 +29,11 @@ Building a thorough data model for a Retail Order Management System (ROMS) entai
 
 #### Step 1: Requirements Gathering
 
-1. Understand the business processes and requirements.
-2. Identify the key entities and relationships.
-3. Define the scope and boundaries of the system.
+Before starting the data modeling process, gather all business requirements related to the Retail Order Management System. Identify the key entities, relationships, and processes. Examples of business questions:
+
+1. How are orders placed by customers?
+2. What is the relationship between products, orders, and shipments?
+3. How are products categorized and tracked?
 
 #### Step 2: Create ER Diagram
 
