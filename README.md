@@ -1,4 +1,4 @@
-# Order-Management-System-Model
+# Retail-Order-Management-System-Model
 
 <img src="https://github.com/RadhikaDeshpande1010/Order-Management-System-Model/blob/main/Order_Management_System_Banner.png" height="290" width="1200">
 
@@ -6,29 +6,24 @@
 * [Introduction](#Introduction)
 * [Purpose](#Purpose)
 * [Database](#Database)
-* [Data Preparation and Processing](#UK-Customers-Data-Preparation-and-Processing)
-* [DAX Formulas Used in Measures](#DAX-Formulas-Used-in-Measures)
+* [Instructions](#Instructions)
+* [ER Diagram](#Step-1:-Create-ER-Diagram)
 * [Dashboard](#Dashboard)
 * [Conclusion](#Conclusion)
   
 ## Introduction
-In this exercise, I have undertaken a data modeling project for Global Super Store.
+In this exercise, I have undertaken a data modeling project for Retail Order Management System (ROMS).
 
 ## Purpose
-The primary goal of the Order Management System (OMS) data modeling is to establish a well-structured, efficient, and scalable way to track, manage, and analyze all processes related to customer orders, from initial placement to final delivery. This model ensures accurate record-keeping, streamlined operations, and valuable insights into the order management process, ultimately leading to better business decisions and enhanced customer satisfaction.
+The primary goal of the Retail Order Management System (ROMS) data modeling is to establish a well-structured, efficient, and scalable way to track, manage, and analyze all processes related to customer orders, from initial placement to final delivery. This model ensures accurate record-keeping, streamlined operations, and valuable insights into the order management process, ultimately leading to better business decisions and enhanced customer satisfaction.
 
 ## Database
-* The Order Management System (OMS) data modeling is implemented using Oracle Database. 
-* Oracle Database ensures that the OMS can handle large volumes of data efficiently and securely.
+The Retail Order Management System (ROMS) data modeling is implemented using Oracle Database. Oracle Database ensures that the ROMS can handle large volumes of data efficiently and securely.
 
-## UK Customers Data Preparation and Processing 
-* Load the Raw Data.
-* To conduct the analysis, I needed to convert the dataset from wide to long format. To do so, I used Power Query to unpivot the date columns.
-* Data cleaning is performed on Power Query.
-* In Power Query, I ensured data quality by removing unnecessary columns, eliminating duplicate rows, and meticulously cleaning individual rows such as correcting spelling mistakes, standardizing formatting, filling in missing values, or resolving conflicting information to ensure to data accuracy and consistency.
-* After Data Preparation and Processing activity, it is ready for developing the Interactive Dashboard.
+## Instructions 
+Building a thorough data model for a Retail Order Management System (ROMS) entails multiple critical steps, such as formulating an Entity-Relationship (ER) diagram and designing a Dimensional Model. Let's delve into the process in detail.
 
-## DAX Formulas Used in Measures
+<h4> ## Step 1: Create ER Diagram </h4>
 
 **1. Total Customers:** This DAX expression counts the total number of customers in the dataset.
 * ```
