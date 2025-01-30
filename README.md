@@ -6,7 +6,7 @@
 * [Introduction](#Introduction)
 * [Purpose](#Purpose)
 * [Database](#Database)
-* [Tools](#Tools)
+* [Tools](#data-modeling-tool)
 * [Instructions](#Instructions)
 * [Step 1: Requirements Gathering](#step-1-requirements-gathering)
 * [Step 2: Create ER Diagram](#step-2-create-er-diagram)
