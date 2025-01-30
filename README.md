@@ -7,7 +7,7 @@
 * [Purpose](#Purpose)
 * [Database](#Database)
 * [Instructions](#Instructions)
-* [Step1: Create ER Diagram](#Step-1:-Create-ER-Diagram)
+* [Step 1: Create ER Diagram](#Step-1:-Create-ER-Diagram)
 * [Dashboard](#Dashboard)
 * [Conclusion](#Conclusion)
   
