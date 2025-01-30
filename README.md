@@ -52,7 +52,7 @@ In this step, you will use Erwin Data Modeler to design an Entity-Relationship (
 
 The final ER diagram will provide a comprehensive and well-organized relational schema for the Retail Order Management System, ensuring it is scalable, maintainable, and efficient for processing and analyzing order data.
 
-![ER Diagram for Retail Order Management System](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_ERDataModel.png)
+![ER Diagram for Retail Order Management System](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_ERDataModel1.png)
 
 ### Step 3: Implement the Data Model
 
@@ -82,7 +82,7 @@ The Star Schema should be easy to navigate for ad-hoc queries and should support
 
 The final Star Schema will provide a robust, scalable, and efficient foundation for business intelligence and reporting, helping stakeholders gain insights into key metrics such as sales performance, inventory levels, and customer behavior. Additionally, the conformed Date dimension can be leveraged in other subject areas or projects, ensuring consistency and efficiency across the enterprise.
 
-![Dimensional Data Model](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_DimensionalDataModel.png)
+![Dimensional Data Model](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_DimensionalDataModel1.png)
 
 ## Conclusion
 In this project, we have successfully designed and implemented the Entity-Relationship (ER) Diagram and Dimensional Model (Star Schema) for the Retail Order Management System (ROMS). These models form the backbone of a well-organized and efficient database architecture, ensuring data integrity and optimized performance for reporting and analysis.
