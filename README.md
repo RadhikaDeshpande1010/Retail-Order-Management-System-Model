@@ -8,6 +8,7 @@
 * [Database](#Database)
 * [Tools](#Tools)
 * [Instructions](#Instructions)
+* [Step 1: Create ER Diagram](#step-1-create-er-diagram)
 * [Conclusion](#Conclusion)
   
 ## Introduction
@@ -25,12 +26,14 @@ You can use a data modeling tool like Erwin, Lucidchart, or Draw.io to visually 
 ## Instructions 
 Building a thorough data model for a Retail Order Management System (ROMS) entails multiple critical steps, such as formulating an Entity-Relationship (ER) diagram and designing a Dimensional Model. Let's delve into the process in detail.
 
-## Step 1: Create ER Diagram
+### Step 1: Create ER Diagram
+
 * Your first task is to design an ER diagram for the Order Management System based on the dataset. Here, I am referring to the W3Schools Retail Order Management Schema as the data source.
 * Use a data modeling tool to visually represent the relationships between entities.
 * Ensure that your database schema adheres to the three normal forms (3NF) to eliminate redundancy and maintain data integrity.
 * The following ER diagram illustrates an adequate relational schema for Retail Order Management Schema :
 
+![ER Diagram for Retail Order Management System](https://github.com/RadhikaDeshpande1010/Retail-Order-Management-System-Model/blob/main/ROMS_SRC/w3School_OrderManagement_ERDataModel.png)
 
   
 **2. Male Count and Female:** This DAX expression calculate the count of male and female customers respectively based on your dataset.
